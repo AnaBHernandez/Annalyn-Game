@@ -16,10 +16,16 @@ public class AnnalynsInfiltrationTest {
         assertTrue(AnnalynsInfiltration.canSpy(true, false, false));
         assertFalse(AnnalynsInfiltration.canSpy(false, false, false));
     }
+
     @Test
     void testCanSignalPrisoner() {
-        assertFalse(AnnalynsInfiltration.canSignalPrisoner(false));
-        assertTrue(AnnalynsInfiltration.canSignalPrisoner(true));
+        assertFalse(AnnalynsInfiltration.canSignalPrisoner(true));
+        assertTrue(AnnalynsInfiltration.canSignalPrisoner(false));
     }
 
+    @Test
+    void testCanFreePrisoner() {
+        assertTrue(AnnalynsInfiltration.canFreePrisoner(false));
+        assertFalse(AnnalynsInfiltration.canFreePrisoner(true));
+    }
 }
