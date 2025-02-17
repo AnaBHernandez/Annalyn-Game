@@ -1,7 +1,7 @@
 # Annalyn's Infiltration 🏰🐶
 
 ## Descripción 📜
-Este proyecto implementa la lógica para un juego de rol en el que la protagonista, Annalyn, intenta rescatar a su amiga secuestrada por un caballero y un arquero. Con la ayuda de su perro, Annalyn puede tomar varias acciones según el estado de los secuestradores y su amiga. Este ejercicio forma parte del bootcamp backend de Factoria F5.
+Este proyecto implementa la lógica para un juego de rol en el que la protagonista, Annalyn, intenta rescatar a su amiga secuestrada por un caballero y un arquero. Con la ayuda de su perro, Annalyn puede tomar varias acciones según el estado de los secuestradores y su amiga. 
 
 ## Acciones disponibles ⚔️
 - **Ataque rápido**: Puede realizarse si el caballero está dormido. 😴
