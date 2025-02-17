@@ -1,0 +1,8 @@
+# Ignorar archivos innecesarios
+.classpath
+.project
+.settings/
+bin/
+target/
+.idea/
+.vscode/
